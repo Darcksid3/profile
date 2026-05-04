@@ -1,0 +1,133 @@
+/* IMPORT */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+/* GENERAL */
+body {
+    font-family: 'open sans', sans-serif;
+    background: #e3a730;
+    background: linear-gradient(90deg, rgba(227, 167, 48, 1) 0%, rgba(199, 130, 87, 1) 50%, rgba(171, 92, 9, 1) 100%);
+    color: rgb(95, 95, 95);
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+a {
+    color: rgb(148, 148, 236);
+}
+
+header,
+footer,
+section {
+    margin: 3em auto;
+    width: 50%;
+    background-color: white;
+    
+    padding: 2rem;
+    border-radius: 0.4rem;
+    text-align: center;
+}
+
+.shadow-right {
+    box-shadow: 8px 8px 16px #573404;
+}
+
+.shadow-left {
+    box-shadow: -8px 8px 16px #573404;
+}
+
+/* HEADER*/
+header {
+    margin-bottom: 2em;
+}
+
+header img {
+    width: 100px;
+}
+
+header a {
+    display: inline-block;
+    font-weight: 700;
+    padding: 1em;
+    color:white;
+    background-color: rgb(148, 148, 236);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: 2s ease;
+}
+
+header a:hover {
+    color: black;
+}
+
+header p {
+    line-height: 2em;
+}
+
+h1,
+h2 {
+    font-family: 'poppins';
+    color:lightslategrey
+}
+
+/* MAIN */
+
+.section-p-style {
+    text-align: left;
+    font-weight: 550;
+}
+/* FOOTER */
+footer{
+    margin-top: 2em;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 2em;
+    font-size: 2em;
+}
+
+footer a:hover {
+    color: rgba(124, 140, 155, 0.368);
+
+}
+/* FOOTER ID */
+#folowme {
+    font-weight: 700;
+    color: rgb(75, 176, 75);
+}
+
+/* MEDIA */
+@media (max-width: 960px) {
+    /* Pour un écran < 960px, cette classe CSS s'applique */
+    .container {
+        width: 700px;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 720px) {
+    /* Pour un écran < 720px, cette classe CSS s'applique */
+    .container {
+        width: 500px;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 540px) {
+    /* Pour un écran < 540px, cette classe CSS s'applique */
+    .container {
+        width: 300px;
+        margin-right: auto;
+    }
+    h1 {
+        font-size: 1em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+    footer ul li {
+        display: inline;
+        margin-right: 0.5em;
+        font-size: 2em;
+    }
+}
