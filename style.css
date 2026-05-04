@@ -42,6 +42,8 @@ header {
 
 header img {
     width: 100px;
+    border: 5px double #e3a730;
+    border-radius: 50%;
 }
 
 header a {
